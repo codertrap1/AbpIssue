@@ -1,0 +1,851 @@
+DEBUG 2021-09-06 10:49:33,379 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2021-09-06 10:49:33,397 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2021-09-06 10:49:33,404 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SpeedTest.Web.SpeedTestWebModule, SpeedTest.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 10:49:33,406 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SpeedTest.SpeedTestDataModule, SpeedTest.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 10:49:33,406 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 10:49:33,406 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 10:49:33,407 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 10:49:33,407 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 10:49:33,407 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 10:49:33,407 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 10:49:33,407 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SpeedTest.SpeedTestCoreModule, SpeedTest.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 10:49:33,407 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SpeedTest.SpeedTestApplicationModule, SpeedTest.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 10:49:33,408 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 10:49:33,408 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SpeedTest.Api.SpeedTestWebApiModule, SpeedTest.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 10:49:33,408 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 10:49:33,408 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 10:49:33,408 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 10:49:33,408 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 10:49:33,408 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 10:49:33,411 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2021-09-06 10:49:33,712 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-09-06 10:49:33,713 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-09-06 10:49:33,713 [1    ] o.Configuration.LanguageManagementConfig - Converted SpeedTest (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-09-06 10:49:33,713 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-09-06 10:49:34,160 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SpeedTest.EntityFramework.SpeedTestDbContext, SpeedTest.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 10:49:36,509 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2021-09-06 10:49:36,560 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2021-09-06 10:49:36,580 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2021-09-06 10:49:36,598 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SpeedTest
+DEBUG 2021-09-06 10:49:36,604 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2021-09-06 10:49:36,687 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2021-09-06 10:49:36,745 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2021-09-06 10:49:36,745 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2021-09-06 10:49:36,750 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.Sessions.Dto.UserLoginInfoDto
+DEBUG 2021-09-06 10:49:36,750 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.Users.Dto.CreateUserDto
+DEBUG 2021-09-06 10:49:36,751 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.Users.Dto.UpdateUserDto
+DEBUG 2021-09-06 10:49:36,751 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.Users.Dto.UserDto
+DEBUG 2021-09-06 10:49:36,751 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.Roles.Dto.PermissionDto
+DEBUG 2021-09-06 10:49:36,751 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2021-09-06 10:49:36,751 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.MultiTenancy.Dto.EditTenantDto
+DEBUG 2021-09-06 10:49:36,751 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.MultiTenancy.Dto.TenantDto
+DEBUG 2021-09-06 10:49:36,751 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.Web.Models.Account.TenantChangeViewModel
+DEBUG 2021-09-06 10:49:36,751 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2021-09-06 10:49:38,165 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SpeedTest.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2021-09-06 10:49:38,167 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SpeedTest.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2021-09-06 10:49:38,168 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SpeedTest.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2021-09-06 10:49:38,170 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SpeedTest.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2021-09-06 10:49:38,172 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SpeedTest.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2021-09-06 10:49:38,174 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SpeedTest.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+ERROR 2021-09-06 10:50:39,908 [5    ] SpeedTest.Web.Controllers.HomeController - ComponentActivator: could not instantiate SpeedTest.EntityFramework.SpeedTestDbContext
+Castle.MicroKernel.ComponentActivator.ComponentActivatorException: ComponentActivator: could not instantiate SpeedTest.EntityFramework.SpeedTestDbContext ---> System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception: The system cannot find the file specified
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<>c.<Open>b__13_0(DbConnection t, DbConnectionInterceptionContext c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.SqlServer.SqlProviderServices.<>c__DisplayClass60_0.<UsingConnection>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass2_0.<Execute>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   at System.Data.Entity.SqlServer.SqlProviderServices.UsingConnection(DbConnection sqlConnection, Action`1 act)
+   at System.Data.Entity.SqlServer.SqlProviderServices.UsingMasterConnection(DbConnection sqlConnection, Action`1 act)
+   at System.Data.Entity.SqlServer.SqlProviderServices.CreateDatabaseFromScript(Nullable`1 commandTimeout, DbConnection sqlConnection, String createDatabaseScript)
+   at System.Data.Entity.SqlServer.SqlProviderServices.DbCreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   at System.Data.Entity.Core.Common.DbProviderServices.CreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   at System.Data.Entity.Core.Objects.ObjectContext.CreateDatabase()
+   at System.Data.Entity.Migrations.Utilities.DatabaseCreator.Create(DbConnection connection)
+   at System.Data.Entity.Migrations.DbMigrator.EnsureDatabaseExists(Action mustSucceedToKeepDatabase)
+   at System.Data.Entity.Migrations.DbMigrator.Update(String targetMigration)
+   at System.Data.Entity.Internal.DatabaseCreator.CreateDatabase(InternalContext internalContext, Func`3 createMigrator, ObjectContext objectContext)
+   at System.Data.Entity.Internal.InternalContext.CreateDatabase(ObjectContext objectContext, DatabaseExistenceState existenceState)
+   at System.Data.Entity.Database.Create(DatabaseExistenceState existenceState)
+   at System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.<>c__DisplayClass66_0`1.<CreateInitializationAction>b__0()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.<>c.<InitializeDatabase>b__58_0(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.Initialize()
+   at System.Data.Entity.Internal.InternalContext.ForceOSpaceLoadingForKnownEntityTypes()
+   at System.Data.Entity.DbContext.System.Data.Entity.Infrastructure.IObjectContextAdapter.get_ObjectContext()
+   at Abp.EntityFramework.AbpDbContext.RegisterToChanges()
+   at Abp.Zero.EntityFramework.AbpZeroDbContext`3..ctor(String nameOrConnectionString)
+   at SpeedTest.EntityFramework.SpeedTestDbContext..ctor(String nameOrConnectionString) in C:\Users\dell\Downloads\SpeedTest\6.4.0\src\SpeedTest.EntityFramework\EntityFramework\SpeedTestDbContext.cs:line 31
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.FastCreateInstance(Type implType, Object[] arguments, ConstructorCandidate constructor)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   --- End of inner exception stack trace ---
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstance(CreationContext context, ConstructorCandidate constructor, Object[] arguments)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.Instantiate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   at Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, Arguments additionalArguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, Arguments arguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.MicroKernel.DefaultKernel.Resolve(Type service, Arguments arguments)
+   at Castle.Windsor.WindsorContainer.Resolve(Type service, Arguments arguments)
+   at Abp.Dependency.IocManager.Resolve(Type type, Object argumentsAsAnonymousType)
+   at Abp.EntityFramework.DefaultDbContextResolver.Resolve[TDbContext](String connectionString)
+   at Abp.EntityFramework.Uow.TransactionScopeEfTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver)
+   at Abp.EntityFramework.Uow.EfUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name)
+   at Abp.EntityFramework.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork, Nullable`1 multiTenancySide, String name)
+   at Abp.EntityFramework.Uow.UnitOfWorkDbContextProvider`1.GetDbContext(Nullable`1 multiTenancySide)
+   at Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Context()
+   at Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Table()
+   at Abp.EntityFramework.Repositories.EfRepositoryBase`3.GetAll()
+   at Abp.Domain.Repositories.AbpRepositoryBase`2.FirstOrDefault(TPrimaryKey id)
+   at Castle.Proxies.Invocations.IRepository`2_FirstOrDefault.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IRepository`1Proxy.FirstOrDefault(Int32 id)
+   at Abp.MultiTenancy.TenantCache`2.<>c__DisplayClass13_0.<GetTenantOrNull>b__0()
+   at Abp.Domain.Uow.UnitOfWorkManagerExtensions.WithUnitOfWork[TResult](IUnitOfWorkManager manager, Func`1 action, UnitOfWorkOptions options)
+   at Abp.MultiTenancy.TenantCache`2.GetTenantOrNull(Int32 tenantId)
+   at Abp.MultiTenancy.TenantCache`2.<>c__DisplayClass7_0.<GetOrNull>b__0()
+   at Abp.Runtime.Caching.TypedCacheExtensions.<>c__DisplayClass0_0`2.<Get>b__0(TKey k)
+   at Abp.Runtime.Caching.TypedCacheWrapper`2.<>c__DisplayClass16_0.<Get>b__0(String k)
+   at Abp.Runtime.Caching.AbpCacheBase`2.Get(TKey key, Func`2 factory)
+   at Abp.Runtime.Caching.TypedCacheWrapper`2.Get(TKey key, Func`2 factory)
+   at Abp.Runtime.Caching.TypedCacheExtensions.Get[TKey,TValue](ITypedCache`2 cache, TKey key, Func`1 factory)
+   at Abp.MultiTenancy.TenantCache`2.GetOrNull(Int32 tenantId)
+   at Abp.MultiTenancy.TenantStore.Find(Int32 tenantId)
+   at Abp.MultiTenancy.TenantResolver.GetTenantIdFromContributors()
+   at Abp.MultiTenancy.TenantResolver.ResolveTenantId()
+   at Abp.Runtime.Session.ClaimsAbpSession.get_TenantId()
+   at Abp.Localization.ApplicationLanguageProvider.GetActiveLanguages()
+   at Abp.Localization.LanguageManager.GetActiveLanguages()
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.GetDictionaries()
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.get_Dictionaries()
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetStringOrNull(String name, CultureInfo culture, Boolean tryDefaults)
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetString(String name)
+   at Abp.Authorization.AuthorizationHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.Authorize(MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__0(AsyncCallback asyncCallback, Object asyncState)
+DEBUG 2021-09-06 10:59:09,174 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2021-09-06 10:59:09,311 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2021-09-06 10:59:09,316 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SpeedTest.Web.SpeedTestWebModule, SpeedTest.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 10:59:09,317 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SpeedTest.SpeedTestDataModule, SpeedTest.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 10:59:09,317 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 10:59:09,317 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 10:59:09,318 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 10:59:09,318 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 10:59:09,318 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 10:59:09,318 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 10:59:09,318 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SpeedTest.SpeedTestCoreModule, SpeedTest.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 10:59:09,318 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SpeedTest.SpeedTestApplicationModule, SpeedTest.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 10:59:09,318 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 10:59:09,318 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SpeedTest.Api.SpeedTestWebApiModule, SpeedTest.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 10:59:09,319 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 10:59:09,319 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 10:59:09,319 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 10:59:09,319 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 10:59:09,319 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 10:59:09,321 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2021-09-06 10:59:09,676 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-09-06 10:59:09,676 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-09-06 10:59:09,676 [1    ] o.Configuration.LanguageManagementConfig - Converted SpeedTest (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-09-06 10:59:09,676 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-09-06 10:59:10,100 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SpeedTest.EntityFramework.SpeedTestDbContext, SpeedTest.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 10:59:10,653 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2021-09-06 10:59:10,703 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2021-09-06 10:59:10,716 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2021-09-06 10:59:10,721 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SpeedTest
+DEBUG 2021-09-06 10:59:10,726 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2021-09-06 10:59:10,784 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2021-09-06 10:59:10,847 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2021-09-06 10:59:10,847 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2021-09-06 10:59:10,853 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.Sessions.Dto.UserLoginInfoDto
+DEBUG 2021-09-06 10:59:10,854 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.Users.Dto.CreateUserDto
+DEBUG 2021-09-06 10:59:10,854 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.Users.Dto.UpdateUserDto
+DEBUG 2021-09-06 10:59:10,854 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.Users.Dto.UserDto
+DEBUG 2021-09-06 10:59:10,854 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.Roles.Dto.PermissionDto
+DEBUG 2021-09-06 10:59:10,854 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2021-09-06 10:59:10,855 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.MultiTenancy.Dto.EditTenantDto
+DEBUG 2021-09-06 10:59:10,855 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.MultiTenancy.Dto.TenantDto
+DEBUG 2021-09-06 10:59:10,855 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.Web.Models.Account.TenantChangeViewModel
+DEBUG 2021-09-06 10:59:10,855 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2021-09-06 10:59:11,892 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SpeedTest.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2021-09-06 10:59:11,893 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SpeedTest.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2021-09-06 10:59:11,894 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SpeedTest.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2021-09-06 10:59:11,894 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SpeedTest.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2021-09-06 10:59:11,895 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SpeedTest.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2021-09-06 10:59:11,896 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SpeedTest.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+ERROR 2021-09-06 11:00:15,208 [6    ] SpeedTest.Web.Controllers.HomeController - ComponentActivator: could not instantiate SpeedTest.EntityFramework.SpeedTestDbContext
+Castle.MicroKernel.ComponentActivator.ComponentActivatorException: ComponentActivator: could not instantiate SpeedTest.EntityFramework.SpeedTestDbContext ---> System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception: The system cannot find the file specified
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<>c.<Open>b__13_0(DbConnection t, DbConnectionInterceptionContext c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.SqlServer.SqlProviderServices.<>c__DisplayClass60_0.<UsingConnection>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass2_0.<Execute>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   at System.Data.Entity.SqlServer.SqlProviderServices.UsingConnection(DbConnection sqlConnection, Action`1 act)
+   at System.Data.Entity.SqlServer.SqlProviderServices.UsingMasterConnection(DbConnection sqlConnection, Action`1 act)
+   at System.Data.Entity.SqlServer.SqlProviderServices.CreateDatabaseFromScript(Nullable`1 commandTimeout, DbConnection sqlConnection, String createDatabaseScript)
+   at System.Data.Entity.SqlServer.SqlProviderServices.DbCreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   at System.Data.Entity.Core.Common.DbProviderServices.CreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   at System.Data.Entity.Core.Objects.ObjectContext.CreateDatabase()
+   at System.Data.Entity.Migrations.Utilities.DatabaseCreator.Create(DbConnection connection)
+   at System.Data.Entity.Migrations.DbMigrator.EnsureDatabaseExists(Action mustSucceedToKeepDatabase)
+   at System.Data.Entity.Migrations.DbMigrator.Update(String targetMigration)
+   at System.Data.Entity.Internal.DatabaseCreator.CreateDatabase(InternalContext internalContext, Func`3 createMigrator, ObjectContext objectContext)
+   at System.Data.Entity.Internal.InternalContext.CreateDatabase(ObjectContext objectContext, DatabaseExistenceState existenceState)
+   at System.Data.Entity.Database.Create(DatabaseExistenceState existenceState)
+   at System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.<>c__DisplayClass66_0`1.<CreateInitializationAction>b__0()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.<>c.<InitializeDatabase>b__58_0(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.Initialize()
+   at System.Data.Entity.Internal.InternalContext.ForceOSpaceLoadingForKnownEntityTypes()
+   at System.Data.Entity.DbContext.System.Data.Entity.Infrastructure.IObjectContextAdapter.get_ObjectContext()
+   at Abp.EntityFramework.AbpDbContext.RegisterToChanges()
+   at Abp.Zero.EntityFramework.AbpZeroDbContext`3..ctor(String nameOrConnectionString)
+   at SpeedTest.EntityFramework.SpeedTestDbContext..ctor(String nameOrConnectionString) in C:\Users\dell\Downloads\SpeedTest\6.4.0\src\SpeedTest.EntityFramework\EntityFramework\SpeedTestDbContext.cs:line 31
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.FastCreateInstance(Type implType, Object[] arguments, ConstructorCandidate constructor)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   --- End of inner exception stack trace ---
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstance(CreationContext context, ConstructorCandidate constructor, Object[] arguments)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.Instantiate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   at Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, Arguments additionalArguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, Arguments arguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.MicroKernel.DefaultKernel.Resolve(Type service, Arguments arguments)
+   at Castle.Windsor.WindsorContainer.Resolve(Type service, Arguments arguments)
+   at Abp.Dependency.IocManager.Resolve(Type type, Object argumentsAsAnonymousType)
+   at Abp.EntityFramework.DefaultDbContextResolver.Resolve[TDbContext](String connectionString)
+   at Abp.EntityFramework.Uow.TransactionScopeEfTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver)
+   at Abp.EntityFramework.Uow.EfUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name)
+   at Abp.EntityFramework.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork, Nullable`1 multiTenancySide, String name)
+   at Abp.EntityFramework.Uow.UnitOfWorkDbContextProvider`1.GetDbContext(Nullable`1 multiTenancySide)
+   at Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Context()
+   at Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Table()
+   at Abp.EntityFramework.Repositories.EfRepositoryBase`3.GetAll()
+   at Abp.Domain.Repositories.AbpRepositoryBase`2.FirstOrDefault(TPrimaryKey id)
+   at Castle.Proxies.Invocations.IRepository`2_FirstOrDefault.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IRepository`1Proxy.FirstOrDefault(Int32 id)
+   at Abp.MultiTenancy.TenantCache`2.<>c__DisplayClass13_0.<GetTenantOrNull>b__0()
+   at Abp.Domain.Uow.UnitOfWorkManagerExtensions.WithUnitOfWork[TResult](IUnitOfWorkManager manager, Func`1 action, UnitOfWorkOptions options)
+   at Abp.MultiTenancy.TenantCache`2.GetTenantOrNull(Int32 tenantId)
+   at Abp.MultiTenancy.TenantCache`2.<>c__DisplayClass7_0.<GetOrNull>b__0()
+   at Abp.Runtime.Caching.TypedCacheExtensions.<>c__DisplayClass0_0`2.<Get>b__0(TKey k)
+   at Abp.Runtime.Caching.TypedCacheWrapper`2.<>c__DisplayClass16_0.<Get>b__0(String k)
+   at Abp.Runtime.Caching.AbpCacheBase`2.Get(TKey key, Func`2 factory)
+   at Abp.Runtime.Caching.TypedCacheWrapper`2.Get(TKey key, Func`2 factory)
+   at Abp.Runtime.Caching.TypedCacheExtensions.Get[TKey,TValue](ITypedCache`2 cache, TKey key, Func`1 factory)
+   at Abp.MultiTenancy.TenantCache`2.GetOrNull(Int32 tenantId)
+   at Abp.MultiTenancy.TenantStore.Find(Int32 tenantId)
+   at Abp.MultiTenancy.TenantResolver.GetTenantIdFromContributors()
+   at Abp.MultiTenancy.TenantResolver.ResolveTenantId()
+   at Abp.Runtime.Session.ClaimsAbpSession.get_TenantId()
+   at Abp.Localization.ApplicationLanguageProvider.GetActiveLanguages()
+   at Abp.Localization.LanguageManager.GetActiveLanguages()
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.GetDictionaries()
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.get_Dictionaries()
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetStringOrNull(String name, CultureInfo culture, Boolean tryDefaults)
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetString(String name)
+   at Abp.Authorization.AuthorizationHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.Authorize(MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__0(AsyncCallback asyncCallback, Object asyncState)
+DEBUG 2021-09-06 11:01:03,104 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2021-09-06 11:01:03,116 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2021-09-06 11:01:03,121 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SpeedTest.Web.SpeedTestWebModule, SpeedTest.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:01:03,123 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SpeedTest.SpeedTestDataModule, SpeedTest.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:01:03,123 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:01:03,123 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:01:03,123 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:01:03,123 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:01:03,123 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:01:03,124 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:01:03,124 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SpeedTest.SpeedTestCoreModule, SpeedTest.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:01:03,124 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SpeedTest.SpeedTestApplicationModule, SpeedTest.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:01:03,124 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:01:03,124 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SpeedTest.Api.SpeedTestWebApiModule, SpeedTest.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:01:03,124 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:01:03,124 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:01:03,125 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:01:03,125 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:01:03,125 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:01:03,127 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2021-09-06 11:01:03,350 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-09-06 11:01:03,350 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-09-06 11:01:03,350 [1    ] o.Configuration.LanguageManagementConfig - Converted SpeedTest (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-09-06 11:01:03,350 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-09-06 11:01:03,772 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SpeedTest.EntityFramework.SpeedTestDbContext, SpeedTest.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:01:05,813 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2021-09-06 11:01:05,866 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2021-09-06 11:01:05,885 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2021-09-06 11:01:05,890 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SpeedTest
+DEBUG 2021-09-06 11:01:05,908 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2021-09-06 11:01:05,971 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2021-09-06 11:01:06,041 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2021-09-06 11:01:06,041 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2021-09-06 11:01:06,047 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.Sessions.Dto.UserLoginInfoDto
+DEBUG 2021-09-06 11:01:06,047 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.Users.Dto.CreateUserDto
+DEBUG 2021-09-06 11:01:06,047 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.Users.Dto.UpdateUserDto
+DEBUG 2021-09-06 11:01:06,047 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.Users.Dto.UserDto
+DEBUG 2021-09-06 11:01:06,047 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.Roles.Dto.PermissionDto
+DEBUG 2021-09-06 11:01:06,048 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2021-09-06 11:01:06,048 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.MultiTenancy.Dto.EditTenantDto
+DEBUG 2021-09-06 11:01:06,048 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.MultiTenancy.Dto.TenantDto
+DEBUG 2021-09-06 11:01:06,048 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.Web.Models.Account.TenantChangeViewModel
+DEBUG 2021-09-06 11:01:06,048 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2021-09-06 11:01:07,203 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SpeedTest.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2021-09-06 11:01:07,204 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SpeedTest.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2021-09-06 11:01:07,205 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SpeedTest.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2021-09-06 11:01:07,206 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SpeedTest.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2021-09-06 11:01:07,207 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SpeedTest.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2021-09-06 11:01:07,208 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SpeedTest.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+ERROR 2021-09-06 11:01:12,603 [5    ] SpeedTest.Web.Controllers.HomeController - No language defined!
+Abp.AbpException: No language defined!
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.GetDefaultDictionary()
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.get_DefaultDictionary()
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetStringOrNull(String name, CultureInfo culture, Boolean tryDefaults)
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetString(String name)
+   at Abp.Authorization.AuthorizationHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.Authorize(MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__0(AsyncCallback asyncCallback, Object asyncState)
+ERROR 2021-09-06 11:01:20,835 [11   ] SpeedTest.Web.Controllers.HomeController - No language defined!
+Abp.AbpException: No language defined!
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.GetDefaultDictionary()
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.get_DefaultDictionary()
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetStringOrNull(String name, CultureInfo culture, Boolean tryDefaults)
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetString(String name)
+   at Abp.Authorization.AuthorizationHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.Authorize(MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__0(AsyncCallback asyncCallback, Object asyncState)
+DEBUG 2021-09-06 11:14:31,475 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2021-09-06 11:14:31,504 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2021-09-06 11:14:31,514 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SpeedTest.Web.SpeedTestWebModule, SpeedTest.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:14:31,518 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SpeedTest.SpeedTestDataModule, SpeedTest.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:14:31,518 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:14:31,518 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:14:31,519 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:14:31,519 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:14:31,520 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:14:31,520 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:14:31,520 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SpeedTest.SpeedTestCoreModule, SpeedTest.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:14:31,520 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SpeedTest.SpeedTestApplicationModule, SpeedTest.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:14:31,520 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:14:31,521 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SpeedTest.Api.SpeedTestWebApiModule, SpeedTest.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:14:31,521 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:14:31,521 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:14:31,521 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:14:31,521 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:14:31,522 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:14:31,527 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2021-09-06 11:14:31,953 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-09-06 11:14:31,953 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-09-06 11:14:31,953 [1    ] o.Configuration.LanguageManagementConfig - Converted SpeedTest (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-09-06 11:14:31,953 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-09-06 11:14:32,623 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SpeedTest.EntityFramework.SpeedTestDbContext, SpeedTest.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:14:35,807 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2021-09-06 11:14:35,874 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2021-09-06 11:14:35,891 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2021-09-06 11:14:35,898 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SpeedTest
+DEBUG 2021-09-06 11:14:35,907 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2021-09-06 11:14:36,006 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2021-09-06 11:14:36,080 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2021-09-06 11:14:36,081 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2021-09-06 11:14:36,087 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.Sessions.Dto.UserLoginInfoDto
+DEBUG 2021-09-06 11:14:36,088 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.Users.Dto.CreateUserDto
+DEBUG 2021-09-06 11:14:36,089 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.Users.Dto.UpdateUserDto
+DEBUG 2021-09-06 11:14:36,089 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.Users.Dto.UserDto
+DEBUG 2021-09-06 11:14:36,089 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.Roles.Dto.PermissionDto
+DEBUG 2021-09-06 11:14:36,089 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2021-09-06 11:14:36,089 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.MultiTenancy.Dto.EditTenantDto
+DEBUG 2021-09-06 11:14:36,089 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.MultiTenancy.Dto.TenantDto
+DEBUG 2021-09-06 11:14:36,089 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.Web.Models.Account.TenantChangeViewModel
+DEBUG 2021-09-06 11:14:36,090 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2021-09-06 11:14:37,784 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SpeedTest.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2021-09-06 11:14:37,785 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SpeedTest.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2021-09-06 11:14:37,786 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SpeedTest.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2021-09-06 11:14:37,787 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SpeedTest.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2021-09-06 11:14:37,788 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SpeedTest.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2021-09-06 11:14:37,789 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SpeedTest.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2021-09-06 11:14:54,700 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"fdf8534d-5bc0-424b-adf4-046e5657a59d","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2021-09-06T11:14:54.6923732+05:00","Properties":{}}
+DEBUG 2021-09-06 11:14:54,803 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: fdf8534d-5bc0-424b-adf4-046e5657a59d
+DEBUG 2021-09-06 11:45:44,338 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2021-09-06 11:45:44,351 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2021-09-06 11:45:44,358 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SpeedTest.Web.SpeedTestWebModule, SpeedTest.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:45:44,359 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SpeedTest.SpeedTestDataModule, SpeedTest.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:45:44,360 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:45:44,360 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:45:44,360 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:45:44,360 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:45:44,360 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:45:44,360 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:45:44,360 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SpeedTest.SpeedTestCoreModule, SpeedTest.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:45:44,361 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SpeedTest.SpeedTestApplicationModule, SpeedTest.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:45:44,361 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:45:44,361 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SpeedTest.Api.SpeedTestWebApiModule, SpeedTest.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:45:44,361 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:45:44,361 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:45:44,361 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:45:44,361 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:45:44,361 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:45:44,364 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2021-09-06 11:45:44,585 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-09-06 11:45:44,585 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-09-06 11:45:44,585 [1    ] o.Configuration.LanguageManagementConfig - Converted SpeedTest (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-09-06 11:45:44,585 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-09-06 11:45:44,980 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SpeedTest.EntityFramework.SpeedTestDbContext, SpeedTest.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:45:46,932 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2021-09-06 11:45:46,994 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2021-09-06 11:45:47,011 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2021-09-06 11:45:47,016 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SpeedTest
+DEBUG 2021-09-06 11:45:47,023 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2021-09-06 11:45:47,103 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2021-09-06 11:45:47,165 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2021-09-06 11:45:47,166 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2021-09-06 11:45:47,171 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.Sessions.Dto.UserLoginInfoDto
+DEBUG 2021-09-06 11:45:47,171 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.Users.Dto.CreateUserDto
+DEBUG 2021-09-06 11:45:47,172 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.Users.Dto.UpdateUserDto
+DEBUG 2021-09-06 11:45:47,172 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.Users.Dto.UserDto
+DEBUG 2021-09-06 11:45:47,172 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.Roles.Dto.PermissionDto
+DEBUG 2021-09-06 11:45:47,172 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2021-09-06 11:45:47,172 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.MultiTenancy.Dto.EditTenantDto
+DEBUG 2021-09-06 11:45:47,172 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.MultiTenancy.Dto.TenantDto
+DEBUG 2021-09-06 11:45:47,172 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.Web.Models.Account.TenantChangeViewModel
+DEBUG 2021-09-06 11:45:47,172 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2021-09-06 11:45:48,341 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SpeedTest.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2021-09-06 11:45:48,342 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SpeedTest.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2021-09-06 11:45:48,343 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SpeedTest.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2021-09-06 11:45:48,343 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SpeedTest.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2021-09-06 11:45:48,344 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SpeedTest.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2021-09-06 11:45:48,345 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SpeedTest.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+WARN  2021-09-06 11:45:52,496 [5    ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.Authorize(MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.Authorize(MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+DEBUG 2021-09-06 11:46:15,899 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"bbe951de-9cbd-4070-8ff2-881d3eaab0de","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2021-09-06T11:46:15.8932848+05:00","Properties":{}}
+DEBUG 2021-09-06 11:46:15,929 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: bbe951de-9cbd-4070-8ff2-881d3eaab0de
+DEBUG 2021-09-06 11:46:55,774 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: bbe951de-9cbd-4070-8ff2-881d3eaab0de
+DEBUG 2021-09-06 11:49:01,627 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2021-09-06 11:49:01,766 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2021-09-06 11:49:01,771 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SpeedTest.Web.SpeedTestWebModule, SpeedTest.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:49:01,772 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SpeedTest.SpeedTestDataModule, SpeedTest.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:49:01,772 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:49:01,772 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:49:01,773 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:49:01,773 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:49:01,773 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:49:01,773 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:49:01,773 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SpeedTest.SpeedTestCoreModule, SpeedTest.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:49:01,774 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SpeedTest.SpeedTestApplicationModule, SpeedTest.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:49:01,774 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:49:01,774 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SpeedTest.Api.SpeedTestWebApiModule, SpeedTest.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:49:01,774 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:49:01,774 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:49:01,774 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:49:01,774 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:49:01,775 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:49:01,777 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2021-09-06 11:49:02,107 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-09-06 11:49:02,107 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-09-06 11:49:02,107 [1    ] o.Configuration.LanguageManagementConfig - Converted SpeedTest (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-09-06 11:49:02,107 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-09-06 11:49:02,503 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SpeedTest.EntityFramework.SpeedTestDbContext, SpeedTest.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:49:03,112 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2021-09-06 11:49:03,153 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2021-09-06 11:49:03,165 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2021-09-06 11:49:03,171 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SpeedTest
+DEBUG 2021-09-06 11:49:03,177 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2021-09-06 11:49:03,239 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2021-09-06 11:49:03,288 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2021-09-06 11:49:03,288 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2021-09-06 11:49:03,293 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.Sessions.Dto.UserLoginInfoDto
+DEBUG 2021-09-06 11:49:03,293 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.Users.Dto.CreateUserDto
+DEBUG 2021-09-06 11:49:03,293 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.Users.Dto.UpdateUserDto
+DEBUG 2021-09-06 11:49:03,293 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.Users.Dto.UserDto
+DEBUG 2021-09-06 11:49:03,293 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.Roles.Dto.PermissionDto
+DEBUG 2021-09-06 11:49:03,294 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2021-09-06 11:49:03,294 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.MultiTenancy.Dto.EditTenantDto
+DEBUG 2021-09-06 11:49:03,294 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.MultiTenancy.Dto.TenantDto
+DEBUG 2021-09-06 11:49:03,294 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.Web.Models.Account.TenantChangeViewModel
+DEBUG 2021-09-06 11:49:03,294 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2021-09-06 11:49:04,343 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SpeedTest.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2021-09-06 11:49:04,345 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SpeedTest.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2021-09-06 11:49:04,345 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SpeedTest.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2021-09-06 11:49:04,346 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SpeedTest.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2021-09-06 11:49:04,346 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SpeedTest.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2021-09-06 11:49:04,347 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SpeedTest.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+ERROR 2021-09-06 11:49:09,206 [5    ] SpeedTest.Web.Controllers.HomeController - Filter name MustHaveTenant not found
+System.ApplicationException: Filter name MustHaveTenant not found
+   at EntityFramework.DynamicFilters.DynamicFilterExtensions.GetOrCreateScopedFilterParameters(DbContext context, String filterName)
+   at EntityFramework.DynamicFilters.DynamicFilterExtensions.SetFilterScopedParameterValue(DbContext context, String filterName, String parameterName, Object value)
+   at Abp.EntityFramework.AbpDbContext.Initialize()
+   at Castle.MicroKernel.LifecycleConcerns.InitializationConcern.Apply(ComponentModel model, Object component)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyConcerns(IEnumerable`1 steps, Object instance)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyCommissionConcerns(Object instance)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   at Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, Arguments additionalArguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, Arguments arguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.MicroKernel.DefaultKernel.Resolve(Type service, Arguments arguments)
+   at Castle.Windsor.WindsorContainer.Resolve(Type service, Arguments arguments)
+   at Abp.Dependency.IocManager.Resolve(Type type, Object argumentsAsAnonymousType)
+   at Abp.EntityFramework.DefaultDbContextResolver.Resolve[TDbContext](String connectionString)
+   at Abp.EntityFramework.Uow.TransactionScopeEfTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver)
+   at Abp.EntityFramework.Uow.EfUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name)
+   at Abp.EntityFramework.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork, Nullable`1 multiTenancySide, String name)
+   at Abp.EntityFramework.Uow.UnitOfWorkDbContextProvider`1.GetDbContext(Nullable`1 multiTenancySide)
+   at Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Context()
+   at Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Table()
+   at Abp.EntityFramework.Repositories.EfRepositoryBase`3.GetAll()
+   at Abp.Domain.Repositories.AbpRepositoryBase`2.FirstOrDefault(TPrimaryKey id)
+   at Castle.Proxies.Invocations.IRepository`2_FirstOrDefault.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IRepository`1Proxy.FirstOrDefault(Int32 id)
+   at Abp.MultiTenancy.TenantCache`2.<>c__DisplayClass13_0.<GetTenantOrNull>b__0()
+   at Abp.Domain.Uow.UnitOfWorkManagerExtensions.WithUnitOfWork[TResult](IUnitOfWorkManager manager, Func`1 action, UnitOfWorkOptions options)
+   at Abp.MultiTenancy.TenantCache`2.GetTenantOrNull(Int32 tenantId)
+   at Abp.MultiTenancy.TenantCache`2.<>c__DisplayClass7_0.<GetOrNull>b__0()
+   at Abp.Runtime.Caching.TypedCacheExtensions.<>c__DisplayClass0_0`2.<Get>b__0(TKey k)
+   at Abp.Runtime.Caching.TypedCacheWrapper`2.<>c__DisplayClass16_0.<Get>b__0(String k)
+   at Abp.Runtime.Caching.AbpCacheBase`2.Get(TKey key, Func`2 factory)
+   at Abp.Runtime.Caching.TypedCacheWrapper`2.Get(TKey key, Func`2 factory)
+   at Abp.Runtime.Caching.TypedCacheExtensions.Get[TKey,TValue](ITypedCache`2 cache, TKey key, Func`1 factory)
+   at Abp.MultiTenancy.TenantCache`2.GetOrNull(Int32 tenantId)
+   at Abp.MultiTenancy.TenantStore.Find(Int32 tenantId)
+   at Abp.MultiTenancy.TenantResolver.GetTenantIdFromContributors()
+   at Abp.MultiTenancy.TenantResolver.ResolveTenantId()
+   at Abp.Runtime.Session.ClaimsAbpSession.get_TenantId()
+   at Abp.Localization.ApplicationLanguageProvider.GetActiveLanguages()
+   at Abp.Localization.LanguageManager.GetActiveLanguages()
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.GetDictionaries()
+   at Abp.Localization.MultiTenantLocalizationDictionaryProvider.get_Dictionaries()
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetStringOrNull(String name, CultureInfo culture, Boolean tryDefaults)
+   at Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetString(String name)
+   at Abp.Authorization.AuthorizationHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.Authorize(MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__0(AsyncCallback asyncCallback, Object asyncState)
+WARN  2021-09-06 11:49:09,213 [7    ] Abp.BackgroundJobs.BackgroundJobManager  - System.ApplicationException: Filter name MustHaveTenant not found
+   at EntityFramework.DynamicFilters.DynamicFilterExtensions.GetOrCreateScopedFilterParameters(DbContext context, String filterName)
+   at EntityFramework.DynamicFilters.DynamicFilterExtensions.SetFilterScopedParameterValue(DbContext context, String filterName, String parameterName, Object value)
+   at Abp.EntityFramework.AbpDbContext.Initialize()
+   at Castle.MicroKernel.LifecycleConcerns.InitializationConcern.Apply(ComponentModel model, Object component)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyConcerns(IEnumerable`1 steps, Object instance)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyCommissionConcerns(Object instance)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   at Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, Arguments additionalArguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, Arguments arguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.MicroKernel.DefaultKernel.Resolve(Type service, Arguments arguments)
+   at Castle.Windsor.WindsorContainer.Resolve(Type service, Arguments arguments)
+   at Abp.Dependency.IocManager.Resolve(Type type, Object argumentsAsAnonymousType)
+   at Abp.EntityFramework.DefaultDbContextResolver.Resolve[TDbContext](String connectionString)
+   at Abp.EntityFramework.Uow.TransactionScopeEfTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver)
+   at Abp.EntityFramework.Uow.EfUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name)
+   at Abp.EntityFramework.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork, Nullable`1 multiTenancySide, String name)
+   at Abp.EntityFramework.Uow.UnitOfWorkDbContextProvider`1.GetDbContext(Nullable`1 multiTenancySide)
+   at Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Context()
+   at Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Table()
+   at Abp.EntityFramework.Repositories.EfRepositoryBase`3.GetAll()
+   at Castle.Proxies.Invocations.IRepository`2_GetAll_3.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IRepository`2Proxy_1.GetAll()
+   at Abp.BackgroundJobs.BackgroundJobStore.<>c__DisplayClass7_0.<GetWaitingJobsAsync>b__0()
+   at Abp.Domain.Uow.UnitOfWorkManagerExtensions.WithUnitOfWork[TResult](IUnitOfWorkManager manager, Func`1 action, UnitOfWorkOptions options)
+   at Abp.BackgroundJobs.BackgroundJobStore.<GetWaitingJobsAsync>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.BackgroundJobs.BackgroundJobManager.<DoWorkAsync>d__16.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.BackgroundWorkers.AsyncPeriodicBackgroundWorkerBase.<Timer_Elapsed>d__5.MoveNext()
+System.ApplicationException: Filter name MustHaveTenant not found
+   at EntityFramework.DynamicFilters.DynamicFilterExtensions.GetOrCreateScopedFilterParameters(DbContext context, String filterName)
+   at EntityFramework.DynamicFilters.DynamicFilterExtensions.SetFilterScopedParameterValue(DbContext context, String filterName, String parameterName, Object value)
+   at Abp.EntityFramework.AbpDbContext.Initialize()
+   at Castle.MicroKernel.LifecycleConcerns.InitializationConcern.Apply(ComponentModel model, Object component)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyConcerns(IEnumerable`1 steps, Object instance)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyCommissionConcerns(Object instance)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   at Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, Arguments additionalArguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, Arguments arguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.MicroKernel.DefaultKernel.Resolve(Type service, Arguments arguments)
+   at Castle.Windsor.WindsorContainer.Resolve(Type service, Arguments arguments)
+   at Abp.Dependency.IocManager.Resolve(Type type, Object argumentsAsAnonymousType)
+   at Abp.EntityFramework.DefaultDbContextResolver.Resolve[TDbContext](String connectionString)
+   at Abp.EntityFramework.Uow.TransactionScopeEfTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver)
+   at Abp.EntityFramework.Uow.EfUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name)
+   at Abp.EntityFramework.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork, Nullable`1 multiTenancySide, String name)
+   at Abp.EntityFramework.Uow.UnitOfWorkDbContextProvider`1.GetDbContext(Nullable`1 multiTenancySide)
+   at Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Context()
+   at Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Table()
+   at Abp.EntityFramework.Repositories.EfRepositoryBase`3.GetAll()
+   at Castle.Proxies.Invocations.IRepository`2_GetAll_3.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IRepository`2Proxy_1.GetAll()
+   at Abp.BackgroundJobs.BackgroundJobStore.<>c__DisplayClass7_0.<GetWaitingJobsAsync>b__0()
+   at Abp.Domain.Uow.UnitOfWorkManagerExtensions.WithUnitOfWork[TResult](IUnitOfWorkManager manager, Func`1 action, UnitOfWorkOptions options)
+   at Abp.BackgroundJobs.BackgroundJobStore.<GetWaitingJobsAsync>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.BackgroundJobs.BackgroundJobManager.<DoWorkAsync>d__16.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.BackgroundWorkers.AsyncPeriodicBackgroundWorkerBase.<Timer_Elapsed>d__5.MoveNext()
+WARN  2021-09-06 11:49:14,244 [7    ] Abp.BackgroundJobs.BackgroundJobManager  - System.ApplicationException: Filter name MustHaveTenant not found
+   at EntityFramework.DynamicFilters.DynamicFilterExtensions.GetOrCreateScopedFilterParameters(DbContext context, String filterName)
+   at EntityFramework.DynamicFilters.DynamicFilterExtensions.SetFilterScopedParameterValue(DbContext context, String filterName, String parameterName, Object value)
+   at Abp.EntityFramework.AbpDbContext.Initialize()
+   at Castle.MicroKernel.LifecycleConcerns.InitializationConcern.Apply(ComponentModel model, Object component)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyConcerns(IEnumerable`1 steps, Object instance)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyCommissionConcerns(Object instance)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   at Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, Arguments additionalArguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, Arguments arguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.MicroKernel.DefaultKernel.Resolve(Type service, Arguments arguments)
+   at Castle.Windsor.WindsorContainer.Resolve(Type service, Arguments arguments)
+   at Abp.Dependency.IocManager.Resolve(Type type, Object argumentsAsAnonymousType)
+   at Abp.EntityFramework.DefaultDbContextResolver.Resolve[TDbContext](String connectionString)
+   at Abp.EntityFramework.Uow.TransactionScopeEfTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver)
+   at Abp.EntityFramework.Uow.EfUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name)
+   at Abp.EntityFramework.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork, Nullable`1 multiTenancySide, String name)
+   at Abp.EntityFramework.Uow.UnitOfWorkDbContextProvider`1.GetDbContext(Nullable`1 multiTenancySide)
+   at Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Context()
+   at Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Table()
+   at Abp.EntityFramework.Repositories.EfRepositoryBase`3.GetAll()
+   at Castle.Proxies.Invocations.IRepository`2_GetAll_3.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IRepository`2Proxy_1.GetAll()
+   at Abp.BackgroundJobs.BackgroundJobStore.<>c__DisplayClass7_0.<GetWaitingJobsAsync>b__0()
+   at Abp.Domain.Uow.UnitOfWorkManagerExtensions.WithUnitOfWork[TResult](IUnitOfWorkManager manager, Func`1 action, UnitOfWorkOptions options)
+   at Abp.BackgroundJobs.BackgroundJobStore.<GetWaitingJobsAsync>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.BackgroundJobs.BackgroundJobManager.<DoWorkAsync>d__16.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.BackgroundWorkers.AsyncPeriodicBackgroundWorkerBase.<Timer_Elapsed>d__5.MoveNext()
+System.ApplicationException: Filter name MustHaveTenant not found
+   at EntityFramework.DynamicFilters.DynamicFilterExtensions.GetOrCreateScopedFilterParameters(DbContext context, String filterName)
+   at EntityFramework.DynamicFilters.DynamicFilterExtensions.SetFilterScopedParameterValue(DbContext context, String filterName, String parameterName, Object value)
+   at Abp.EntityFramework.AbpDbContext.Initialize()
+   at Castle.MicroKernel.LifecycleConcerns.InitializationConcern.Apply(ComponentModel model, Object component)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyConcerns(IEnumerable`1 steps, Object instance)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyCommissionConcerns(Object instance)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   at Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, Arguments additionalArguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, Arguments arguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.MicroKernel.DefaultKernel.Resolve(Type service, Arguments arguments)
+   at Castle.Windsor.WindsorContainer.Resolve(Type service, Arguments arguments)
+   at Abp.Dependency.IocManager.Resolve(Type type, Object argumentsAsAnonymousType)
+   at Abp.EntityFramework.DefaultDbContextResolver.Resolve[TDbContext](String connectionString)
+   at Abp.EntityFramework.Uow.TransactionScopeEfTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver)
+   at Abp.EntityFramework.Uow.EfUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name)
+   at Abp.EntityFramework.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork, Nullable`1 multiTenancySide, String name)
+   at Abp.EntityFramework.Uow.UnitOfWorkDbContextProvider`1.GetDbContext(Nullable`1 multiTenancySide)
+   at Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Context()
+   at Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Table()
+   at Abp.EntityFramework.Repositories.EfRepositoryBase`3.GetAll()
+   at Castle.Proxies.Invocations.IRepository`2_GetAll_3.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IRepository`2Proxy_1.GetAll()
+   at Abp.BackgroundJobs.BackgroundJobStore.<>c__DisplayClass7_0.<GetWaitingJobsAsync>b__0()
+   at Abp.Domain.Uow.UnitOfWorkManagerExtensions.WithUnitOfWork[TResult](IUnitOfWorkManager manager, Func`1 action, UnitOfWorkOptions options)
+   at Abp.BackgroundJobs.BackgroundJobStore.<GetWaitingJobsAsync>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.BackgroundJobs.BackgroundJobManager.<DoWorkAsync>d__16.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.BackgroundWorkers.AsyncPeriodicBackgroundWorkerBase.<Timer_Elapsed>d__5.MoveNext()
+DEBUG 2021-09-06 11:51:59,350 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2021-09-06 11:51:59,369 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2021-09-06 11:51:59,382 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SpeedTest.Web.SpeedTestWebModule, SpeedTest.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:51:59,385 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SpeedTest.SpeedTestDataModule, SpeedTest.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:51:59,385 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:51:59,385 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:51:59,386 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:51:59,386 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:51:59,386 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:51:59,386 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:51:59,386 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SpeedTest.SpeedTestCoreModule, SpeedTest.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:51:59,386 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SpeedTest.SpeedTestApplicationModule, SpeedTest.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:51:59,387 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:51:59,387 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SpeedTest.Api.SpeedTestWebApiModule, SpeedTest.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:51:59,387 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:51:59,387 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:51:59,387 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:51:59,387 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:51:59,387 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=6.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:51:59,391 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2021-09-06 11:51:59,730 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-09-06 11:51:59,731 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-09-06 11:51:59,731 [1    ] o.Configuration.LanguageManagementConfig - Converted SpeedTest (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-09-06 11:51:59,731 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-09-06 11:52:00,817 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SpeedTest.EntityFramework.SpeedTestDbContext, SpeedTest.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-06 11:52:03,914 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2021-09-06 11:52:03,968 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2021-09-06 11:52:03,995 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2021-09-06 11:52:04,004 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SpeedTest
+DEBUG 2021-09-06 11:52:04,015 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2021-09-06 11:52:04,094 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2021-09-06 11:52:04,155 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2021-09-06 11:52:04,155 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2021-09-06 11:52:04,161 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.Sessions.Dto.UserLoginInfoDto
+DEBUG 2021-09-06 11:52:04,162 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.Users.Dto.CreateUserDto
+DEBUG 2021-09-06 11:52:04,162 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.Users.Dto.UpdateUserDto
+DEBUG 2021-09-06 11:52:04,162 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.Users.Dto.UserDto
+DEBUG 2021-09-06 11:52:04,162 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.Roles.Dto.PermissionDto
+DEBUG 2021-09-06 11:52:04,162 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2021-09-06 11:52:04,162 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.MultiTenancy.Dto.EditTenantDto
+DEBUG 2021-09-06 11:52:04,162 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.MultiTenancy.Dto.TenantDto
+DEBUG 2021-09-06 11:52:04,163 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.Web.Models.Account.TenantChangeViewModel
+DEBUG 2021-09-06 11:52:04,163 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SpeedTest.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2021-09-06 11:52:05,338 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SpeedTest.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2021-09-06 11:52:05,339 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SpeedTest.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2021-09-06 11:52:05,340 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SpeedTest.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2021-09-06 11:52:05,341 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SpeedTest.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2021-09-06 11:52:05,342 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SpeedTest.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2021-09-06 11:52:05,343 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SpeedTest.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+WARN  2021-09-06 11:52:09,411 [6    ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.Authorize(MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.Authorize(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.Authorize(MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
